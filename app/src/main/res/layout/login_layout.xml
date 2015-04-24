@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <TableRow
+        android:padding="1dp"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_span="2"
+            android:id="@+id/textView"
+            android:text="Login"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#890000"
+            />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dip"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:id="@+id/textViewUsername"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="20dip"
+            />
+
+        <EditText
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_weight="1"
+            android:id="@+id/editTextUsername" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="20dip"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:id="@+id/textViewPassword"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="20dip"
+            />
+
+        <EditText
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_weight="1"
+            android:id="@+id/editTextPassword" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dip"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/buttonLogin" />
+    </TableRow>
+</TableLayout>

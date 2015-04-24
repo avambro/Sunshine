@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Red"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Green"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="#00ff00"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Red"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="#0000ff"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Red"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="#aaaa00"
+            />
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Row One"
+            android:textSize="15pt"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Row Two"
+            android:textSize="15pt"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Row Three"
+            android:textSize="15pt"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Row Four"
+            android:textSize="15pt"
+            android:layout_weight="1"
+            />
+
+        </LinearLayout>
+
+</LinearLayout>
